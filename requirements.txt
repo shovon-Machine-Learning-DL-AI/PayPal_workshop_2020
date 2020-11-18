@@ -1,0 +1,32 @@
+# Required packages
+Python Version and System Requirements:
+Python: 3.8.3 (default, Jul  2 2020, 11:26:31)
+[Clang 10.0.0 ]
+
+
+# Libraries
+keras == 2.4.3
+tensorflow == 2.3.1
+darts == 0.5.0 [For more detail, please refer to: https://unit8co.github.io/darts/]
+cv2 == 4.4.0
+torch == 1.5.1
+tqdm == 4.46.1
+statsmodels == 0.11.1
+tsfresh == 0.17.0
+fbprophet == 0.6
+scikit-learn == 0.23.2
+pandas == 1.1.0
+pmdarima == 1.6.1
+
+
+
+# Neural Network Visualisation:NETRON
+https://github.com/lutzroeder/netron  --> For downloading the current working version
+
+# Neural Network Intelligence
+For more detail about the installation process, please refer to: https://github.com/microsoft/nni
+
+# In order to run the NNI Web GUI:
+Command line syntax: nnictl create --config config.yml
+# In order to stop an existing run:
+Command line syntax: nnictl stop
